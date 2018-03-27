@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         	= "libyuv-iOS"
-  s.version      	= "1.0.0"
+  s.version      	= "1.0.1"
   s.license			= 'BSD'
   s.summary      	= "libyuv arm7 & arm64 library for iOS"
   s.homepage     	= "https://chromium.googlesource.com/libyuv/libyuv/"
@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.description  	= "libyuv is an open source project that includes YUV scaling and conversion functionality."
 
   s.source_files = 'headers/*.h'
-  s.public_header_files = 'headers/*.h'
+  s.public_header_files = 'headers/*.h', 'headers/libyuv/*.h'
   s.vendored_libraries  = 'lib/*.a'
 
   s.requires_arc        = false
