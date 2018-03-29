@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         	= "libyuv-iOS"
-  s.version      	= "1.0.1"
+  s.version      	= "1.0.2"
   s.license			= 'BSD'
   s.summary      	= "libyuv arm7 & arm64 library for iOS"
   s.homepage     	= "https://chromium.googlesource.com/libyuv/libyuv/"
